@@ -10,7 +10,7 @@
 
     // configuration =================
 
-    mongoose.connect('mongodb://localhost:27017/new1');              // connect to mongoDB database on modulus.io
+    mongoose.connect(' mongodb://amol42:amolgaikwad42@ds061518.mongolab.com:61518/amoldb');              // connect to mongoDB      database on modulus.io
 
     app.use(express.static(__dirname + '/public'));                 // set the static files location /public/img will be /img for users
     app.use(morgan('dev'));                                         // log every request to the console
